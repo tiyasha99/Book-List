@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  
+  background: 
+    radial-gradient(
+     at center, #3498db, #501368
+    );
+  color: aliceblue;
+}
+
+#btn{
+  background:#333;
+  width: 20%;
+  margin-left: 40rem;
+  color: aliceblue;
+}
+
+.success, .error{
+  color:white;
+  padding: 5px;
+  margin: 5px 0 15px 0;
+}
+.success{
+  background: green;
+}
+.error{
+  background: red;
+}
